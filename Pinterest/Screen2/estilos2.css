@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 150%;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    display:flex;
+    justify-content:space-between ;
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    min-height: 80px;
+    align-items: center;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding-right: 3em;
+}
+
+.logo{
+    color: rgb(204,0,0);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo img{
+    height:30px ;
+    margin-right: 10px; 
+}
+
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+.redbut-link:hover{
+    background-color: rgb(179, 3, 29);
+}
+
+.greybut-link:hover{
+    background-color: rgb(190, 190, 190);
+}
+
+.redbut-link{
+    background-color: rgb(230, 0, 35);
+    height: 1em;
+    border-radius: 24px;
+    text-align: center;
+    color: white;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.greybut-link{
+    background-color: rgb(226, 226, 226);
+    height: 1em;
+    border-radius: 24px;
+    text-align: center;
+    color: black;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.screen_two{
+background-color: rgb(255, 252, 145);
+display:flex;
+align-items: center;
+
+}
+
+.column{
+    width: 45vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.column img{
+    margin-top: 1px;
+    width:90%
+}
+
+.screen2-text1{
+    color: rgb(195, 25, 82);
+    font-size: 3.75em;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+    margin-top: 110px;
+}
+
+.screen2-text2{
+    margin-top: 16px;
+    color: rgb(195, 25, 82);
+    font-size: 1.5em;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width:  400px;;
+    margin-left: 5vw;
+}
+.explorebut-link{
+    height: 1.3em;
+    max-width: 93px;
+    background: rgb(195, 25, 82);
+    color: rgb(255, 253, 158);
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 999px;
+    align-content: center;
+    text-decoration: none;
+    margin-left: 17vw;
+    margin-top: 4vh;
+}   
+
+
+@media (max-width:700px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        padding: 10px 0px;
+    }
+
+    .screen_two{
+        display:block;
+    }
+}

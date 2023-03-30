@@ -3,27 +3,118 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Pinterest</title>
     <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="Pinterest Logo.png">
 </head>
 
 <body>
     <header>
         <a href="#" class="logo">
             <img src="Pinterest Logo.png">
-            <h2 class="nombre-empresa">
+            <h1 class="nombre-empresa">
                 Pinterest
-            </h2>
-             <nav>
+            </h1>
+            <nav>
                 <a href="#" class="nav-link">Info</a>
                 <a href="#" class="nav-link">Empresa</a>
                 <a href="#" class="nav-link">Blog</a>
                 <a href="#" class="redbut-link">Iniciar Sesion</a>
                 <a href="#" class="greybut-link">Registrarse</a>
-             </nav>
+            </nav>
     </header>
-    <main>
-    </main>
+
+
+    <div class="container">
+        <div class="intro_screen" id="intro">
+            <div class="slide">
+                <div class="slide-inner">
+                    <label class="slide-text">Encuentra la próxima</label>
+
+                    <input class="slide-open" type="radio" id="slide-1" name="slide" aria-hidden="true" hidden=""
+                        checked="checked">
+                    <div class="slide-item">
+                        <img src="Imagen1.png">
+                        <label class="slide-text1">idea de ropa de verano</label>
+                    </div>
+
+                    <input class="slide-open" type="radio" id="slide-2" name="slide" aria-hidden="true" hidden="">
+                    <div class="slide-item">
+                        <img src="Imagen2.png">
+                        <label class="slide-text2">actividad para niños </label>
+                    </div>
+                    <input class="slide-open" type="radio" id="slide-3" name="slide" aria-hidden="true" hidden="">
+                    <div class="slide-item">
+                        <img src="Imagen3.png">
+                        <label class="slide-text3">idea para una cena especial</label>
+                    </div>
+                    <input class="slide-open" type="radio" id="slide-4" name="slide" aria-hidden="true" hidden="">
+                    <div class="slide-item">
+                        <img src="Imagen4.png">
+                        <label class="slide-text4">proyecto de bricolaje</label>
+                    </div>
+
+                    <div class="sub-text">Así es como funciona
+                        <a href="#group-2"><img src="downarrow.png"></a>
+                    </div>
+
+                    <ol class="slide-indicador">
+                        <li>
+                            <label for="slide-1" class="slide-circulo">•</label>
+                        </li>
+                        <li>
+                            <label for="slide-2" class="slide-circulo">•</label>
+                        </li>
+                        <li>
+                            <label for="slide-3" class="slide-circulo">•</label>
+                        </li>
+                        <li>
+                            <label for="slide-4" class="slide-circulo">•</label>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <div class="screen_two" id="group-2">
+            <div class="column">
+                <a href="#"><img src="ImagenPantalla2.jpg"></a>
+            </div>
+            <div class="column">
+                <div class="screen2-text1">Busca una idea </div>
+                <div class="screen2-text2">¿Qué es lo siguiente que quieres probar? Piensa en algo que te interese, como
+                    "receta sencilla de pollo para cenar", y a ver qué descubres. </div>
+                <a href="#" class="explorebut-link"> Explorar </a>
+            </div>
+        </div>
+
+        <div class="screen_three" id="group-3">
+            <div class="column">
+                <div class="screen3-text1">Guarda las ideas que te gusten </div>
+                <div class="screen3-text2">Colecciona tus favoritos para poder verlos más tarde. </div>
+                <a href="#" class="explorebut-link3"> Explorar </a>
+            </div>
+            <div class="column">
+                <a href="#"><img src="ImagenPantalla3.jpg"></a>
+            </div>
+        </div>
+
+
+        <div class="outro_screen" id="outro">
+            <div class="column">
+                <a href="#"><img src="ImagenPantalla4.jpg"></a>
+            </div>
+            <div class="column">
+                <div class="screen4-text1">Míralo,fabrícalo, pruébalo,hazlo </div>
+                <div class="screen4-text2">Lo mejor de Pinterest es descubrir cosas e ideas nuevas de personas de todo el mundo. </div>
+                <a href="#" class="explorebut-link4"> Explorar </a>
+            </div>
+        </div>
+
+    </div>
+
 </body>
 
 </html>
