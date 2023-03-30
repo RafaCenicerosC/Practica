@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.grid-4{
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%; 
+    /* grid-template-columns: 1fr  1fr 1fr 1fr; */
+}
+
+section{
+    background-color: tomato;
+    border:2px solid springgreen;
+    grid-column: span 4;
+}
+aside{
+    background-color: aquamarine;
+    border:2px solid blueviolet;
+}
+article{
+    background-color: gold;
+    border:2px solid black;
+}
