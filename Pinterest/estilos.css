@@ -15,16 +15,43 @@ body{
     color:rgb(0, 0, 0);
 }
 
-header{
-    display:flex;
-    justify-content:space-between ;
-    background-color: white;
+.box{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
     color: black;
-    padding: 16px;
-    font-size: 16px;
-    min-height: 80px;
+    padding-top: 5px;
+    margin: 1px;
+    padding-right:5px;
+    padding-left:5px;
+}
+
+header{
+    height: 80px;
     align-items: center;
-    
+    vertical-align: middle;
+    align-content: center;
+    padding: 16px;
+    color: black;
+    font-size: .5em;
+}
+nav{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+
+}
+.ensancha1{
+    flex-grow: 1;
+}
+ .ensancha0{
+        flex-grow:0;
+}
+
+.empty{
+    width:100%;
+    /* background-color: tomato; */
+    display: flex;
 }
 
 a{
@@ -46,7 +73,9 @@ a{
 nav a{
     font-weight: 600;
     padding-right: 3em;
-
+}
+.nav-link{
+    margin-right: 2em;
 }
 
 
@@ -62,24 +91,26 @@ nav a{
     background-color: rgb(190, 190, 190);
 }
 
-.redbut-link{
-    background-color: rgb(230, 0, 35);
-    height: 1em;
+.greybut-link{
+    background-color: rgb(226, 226, 226);
+    max-height: 2.5em;
     border-radius: 24px;
     text-align: center;
-    color: white;
+    color: black;
     padding-left: 12px;
     padding-right: 12px;
     padding-top: 8px;
     padding-bottom: 8px;
+    margin-left: 0.5em;
 }
 
-.greybut-link{
-    background-color: rgb(226, 226, 226);
-    height: 1em;
+.redbut-link{
+    background-color: rgb(230, 0, 35);
+    max-height: 2.5em;
+    min-width: 8em;
     border-radius: 24px;
     text-align: center;
-    color: black;
+    color: white;
     padding-left: 12px;
     padding-right: 12px;
     padding-top: 8px;
@@ -421,14 +452,14 @@ nav a{
 }
 @media (min-width:550px) and (max-width:700px) {
     header {
-        flex-direction: column;
-        padding: 1em;
+        /* flex-direction: column; */
+        padding-left: 1em;
         font-size: 0.45em;
     }
 
     nav {
-        margin-top: 5vh;
-        padding: 1em 0px;
+        /* margin-top: 5vh; */
+        /* padding: 2em 0px; */
     }
 
     .screen_two,.screen_three,.outro_screen{
@@ -482,7 +513,7 @@ nav a{
         flex-direction: column;
         color: black;
         padding: 0.1em;
-        font-size: 0.35em;
+        /* font-size: 0.35em; */
         min-height: 100%;
         align-items: center;
     }
@@ -496,6 +527,7 @@ nav a{
        margin-top: 1.5em;
        top: 25vh;
        left:0vh;
+       align-items: center;
     } 
     
     .slide-text{
@@ -508,5 +540,20 @@ nav a{
         margin-top: 3vh;
         margin-left: 20%;
         justify-content: center;
+    }
+
+    .redbut-link{
+        min-width: 9em;
+    }
+    .nav-link{
+        display: none;
+    }
+    .screen2-text1,.screen3-text1,.screen4-text1
+    {
+        font-size: 1em;
+    }
+    .screen2-text2,.screen3-text2,.screen4-text2
+    {
+        font-size: 0.5em;
     }
 }
