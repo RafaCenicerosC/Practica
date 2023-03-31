@@ -203,6 +203,7 @@ nav a {
     padding-left: 8px;
     padding-right: 8px;
     background-color: yellowgreen;
+    min-width: 235px;
 }
 
 .titulo {
@@ -291,17 +292,25 @@ nav a {
 }
 
 .grid3 {
-    background-color: tomato;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     border-color: black;
     border-width: 2px;
     border-style: solid;
-    justify-items: center;
-    margin: 1em;
+    background-color: tomato;
+   
+    /* margin:1em; */
+    padding:0;
+    /* width:95vw; */
+    /* position: absolute; */
+    /* left: 50%;
+    transform: translateX(-50%); */
+    min-width: 235px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows:10px ;
+    justify-content: center;
 }
 
-/* .galeria3t1 {
+.galeria3t1 {
     background-color: white;
     justify-content: center;
     align-items: center;
@@ -311,8 +320,10 @@ nav a {
     border-width: 2px;
     border-style: solid;
     padding: 2em;
+    margin: 1em;
     border-radius: 0.5em;
     height: 235px;
+    grid-row-end: span 24;
 }
 .galeria3t2 {
     background-color: white;
@@ -324,10 +335,12 @@ nav a {
     border-width: 2px;
     border-style: solid;
     padding: 2em;
+    margin: 1em;
     border-radius: 0.5em;
-    height: 383px;
-} */
-.galeria3t1 {
+    height: 355px;
+    grid-row-end: span 36;
+} 
+.galeria3t3 {
     background-color: white;
     justify-content: center;
     align-items: center;
@@ -337,13 +350,12 @@ nav a {
     border-width: 2px;
     border-style: solid;
     padding: 2em;
+    margin: 1em;
     border-radius: 0.5em;
-    height: 183px;
+    height: 167px;
+    grid-row-end: span 17;
 }
 
-#item1 div{
-    grid-column: span 2;
-}
 @media (max-width:700px) {
     header {
         padding: 1em;
@@ -357,7 +369,7 @@ nav a {
         height: 158px;
     }
 }
-@media (max-width:126px) {
+@media (max-width:1260px) {
    
     .grid2{
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -381,9 +393,31 @@ nav a {
    
     .grid2{
     grid-template-columns: 1fr;
+    
     }
-
 }
+
+/* @media(max-width:1510px) {
+    .grid3{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+}
+@media(max-width:1195px) {
+    .grid3{
+        grid-template-columns: 1fr 1fr 1fr;
+        }
+}
+@media(max-width:886px) {
+    .grid3{
+        grid-template-columns: 1fr 1fr;
+        }
+}
+@media(max-width:573px) {
+    .grid3{
+        grid-template-columns: 1fr;
+        }
+} */
+
 
 @media (max-width:500px) {
    
