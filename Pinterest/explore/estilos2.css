@@ -297,63 +297,84 @@ nav a {
     border-style: solid;
     background-color: tomato;
    
-    /* margin:1em; */
+    margin:0;
     padding:0;
-    /* width:95vw; */
-    /* position: absolute; */
-    /* left: 50%;
-    transform: translateX(-50%); */
-    min-width: 235px;
+    width:99%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    /* min-width: 235px; */
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-auto-rows:10px ;
+    grid-template-columns: repeat(auto-fill, 235px);
+    grid-auto-rows: 10px;
     justify-content: center;
 }
 
-.galeria3t1 {
+.card_m {
     background-color: white;
     justify-content: center;
     align-items: center;
     display: flex;
-    width:235px;
+
+    /* width:235px; */
     border-color: black;
     border-width: 2px;
     border-style: solid;
-    padding: 2em;
-    margin: 1em;
-    border-radius: 0.5em;
+    /* padding: 2em; */
+    margin: 0.3em;
+    border-radius: 16px;
     height: 235px;
-    grid-row-end: span 24;
+    grid-row-end: span 27;
 }
-.galeria3t2 {
+.card_l {
     background-color: white;
     justify-content:center;
     align-items: center;
     display: flex;
-    width:235px;
+    /* width:235px; */
     border-color: black;
     border-width: 2px;
     border-style: solid;
-    padding: 2em;
-    margin: 1em;
-    border-radius: 0.5em;
+    /* padding: 2em; */
+    margin: 0.3em;
+    border-radius: 16px;
     height: 355px;
-    grid-row-end: span 36;
+    grid-row-end: span 39;
 } 
-.galeria3t3 {
+.card_s {
     background-color: white;
     justify-content: center;
     align-items: center;
     display: flex;
-    width:235px ;
+    /* width:235px ; */
     border-color: black;
     border-width: 2px;
     border-style: solid;
-    padding: 2em;
-    margin: 1em;
-    border-radius: 0.5em;
+    /* padding: 2em; */
+    margin: 0.3em;
+    border-radius: 16px;
     height: 167px;
-    grid-row-end: span 17;
+    grid-row-end: span 20;
+}
+
+.card_xl {
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* width:235px ; */
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    /* padding: 2em; */
+    margin: 0.3em;
+    border-radius: 16px;
+    height: 472px;
+    grid-row-end: span 51;
+}
+
+.card_s:hover,.card_m:hover,.card_l:hover,.card_xl:hover{
+    filter: brightness(30%);
 }
 
 @media (max-width:700px) {
