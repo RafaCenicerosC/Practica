@@ -5,7 +5,9 @@
 }
 
 h1 {
-    font-size: 150%;
+    font-size: 1.25em;
+    font-weight: 600;
+    letter-spacing: -1px;
 }
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

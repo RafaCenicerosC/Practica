@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+h1 {
+    font-size: 1.25em;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:2em;
+    color:rgb(0, 0, 0);
+}
+.logo{
+    color: rgb(204,0,0);
+    display: flex;
+    align-items: center;
+    margin-right: 1em;
+}
+
+.logo img{
+    height:30px ;
+    margin-right: 5px; 
+    align-content: center;
+    display: flex;
+}
+
+.box{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+    padding-top: 5px;
+    margin: 1px;
+    padding-right:5px;
+    padding-left:5px;
+}
+
+header{
+    height: 80px;
+    align-items: center;
+    vertical-align: middle;
+    align-content: center;
+    padding: 16px;
+    color: black;
+    font-size: .5em;
+}
+nav{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.ensancha1{
+flex-grow: 1;
+}
+.ensancha0{
+    flex-grow:0;
+}
+
+.arrow img{
+    width: 0.8em;
+    height: 0.8em;
+    display: flex;
+    filter: invert(0.4)
+}
+.arrow{
+    height: 1.5em;
+    width: 1.5em;
+    border-radius: 50%;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 0.8em;
+}
+
+nav a{
+    font-weight: 600;
+    margin-left: 1px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    padding-right: 0.8em;
+    padding-left: 0.8em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    background-color: transparent;
+    text-align: left;
+    /* display: block; */
+    border-radius: 8px;
+    box-sizing: border-box;
+    /* position: relative; */
+    align-items: center;
+    /* margin-right: 1em; */
+}
+
+.searchbar img{
+    margin-left: 10px;
+    height: 16px;
+    width: 16px;
+    margin-right: 5px;
+    display: flex;
+    filter: invert(0.4)
+}
+.searchbar{
+    height: 3em;
+    background-color: transparent;
+    border-color: #cdcdcd;
+    border-style: solid;
+    border-radius: 24px;
+    border-width: 2px;
+    display: flex;
+    /* flex-direction: row; */
+    text-decoration: none;
+    /* position: relative; */
+    align-items: center;
+    /* max-width: 55em; */
+}
+.searchbar input{
+    background-color: transparent;
+    border: none;
+    color: rgb(51,51,51);
+    font-size:1em;
+    font-weight: normal;
+    /* height: 500px; */
+    outline: none;
+    padding:0;
+    width: 100%;
+    vertical-align: middle;
+    margin:0;
+    overflow: visible;
+    text-align: start;
+    align-items: flex-start;
+}
+
+.redbut-link{
+    background-color: rgb(230, 0, 35);
+    max-height: 3em;
+    /* width: 100%; */
+    border-radius: 24px;
+    text-align: center;
+    color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    margin-left: 1em;
+}
+
+.greybut-link{
+    background-color: rgb(226, 226, 226);
+    max-height: 3em;
+    /* min-width: 3.75em; */
+    border-radius: 24px;
+    text-align: center;
+    color: black;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    margin-left: 0.5em;
+}
+
+.arrow:hover{
+    background-color: rgb(233, 233, 233);
+}
+
+.nav-link:hover{
+    background-color: rgb(233, 233, 233);
+}
+
+.redbut-link:hover{
+    background-color: rgb(179, 3, 29);
+}
+
+.greybut-link:hover{
+    background-color: rgb(190, 190, 190);
+}
+
+@media (max-width:700px) {
+    header {
+        padding: 1em;
+        font-size: 0.45em;
+    }
+
+    .searchbar{
+        display: none;
+    }
+
+}
