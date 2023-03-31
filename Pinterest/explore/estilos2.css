@@ -202,13 +202,13 @@ nav a {
     padding-top: 12px;
     padding-left: 8px;
     padding-right: 8px;
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
     min-width: 235px;
 }
 
 .titulo {
     align-items: center;
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
     justify-content: center;
     padding-top: 5vh;
@@ -222,34 +222,75 @@ nav a {
     text-align: center;
     display: block;
     justify-content: center;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
 .grid1 {
-    background-color: tomato;
+    /* background-color: tomato; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: flex-end;
-    border-color: black;
+    /* border-color: black;
     border-width: 2px;
-    border-style: solid;
+    border-style: solid; */
     justify-content: center;
     margin: 1em;
 }
 
 .galeria1 {
     background-color: white;
-    justify-content: center;
+
+    color:white;
+    text-align: left;
+    /* justify-content: center; */
     align-items: center;
     display: flex;
-    max-width: 99%;
-    border-color: black;
+    
+    min-width: 200px;
+    max-width: 100%;
+    /* border-color: black;
     border-width: 2px;
-    border-style: solid;
+    border-style: solid; */
     padding: 2em;
     border-radius: 0.5em;
     height: 258px;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
 }
+.galeria1 h2{
+    font-size: 1em;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px grey;
+}
+
+
+#box1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(imagenes/grid1_1.jpg);
+    background-size: cover;
+}
+#box2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(imagenes/grid1_2.jpg);
+    background-size: cover;
+}
+#box3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(imagenes/grid1_3.jpg);
+    background-size: cover;
+}
+
+
+#box1:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(imagenes/grid1_1.jpg);
+    background-size: cover;
+}
+#box2:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(imagenes/grid1_2.jpg);
+    background-size: cover;
+}
+#box3:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(imagenes/grid1_3.jpg);
+    background-size: cover;
+}
+
 
 .Title2 {
     color: black;
@@ -258,17 +299,18 @@ nav a {
     text-align: center;
     display: block;
     justify-content: center;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
+    margin-bottom: 2em;
 }
 
 .grid2 {
-    background-color: tomato;
+    /* background-color: tomato; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     align-items: center;
-    border-color: black;
-    border-width: 2px;
-    border-style: solid;
+    /* border-color: black; */
+    /* border-width: 2px; */
+    /* border-style: solid; */
     justify-content: center;
     margin-left: 1em;
     margin-right: 1em;
@@ -282,20 +324,198 @@ nav a {
     align-items: center;
     display: flex;
     max-width: 100%;
-    border-color: black;
+    /* border-color: black;
     border-width: 2px;
-    border-style: solid;
-    /* padding: 1.33em; */
+    border-style: solid; */
+    padding: 16px;
     border-radius: 0.5em;
     height: 103px;
     margin: 0.1em;
 }
+.galeria2 h2{
+    font-size: 0.75em;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px grey;
+}
+
+
+#box2-1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(imagenes/grid2_Animales.jpg);
+    background-size: cover;
+}
+#box2-2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(imagenes/grid2_Arquitectura.jpg);
+    background-size: cover;
+}
+#box2-3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(imagenes/grid2_Arte.jpg);
+    background-size: cover;
+}
+#box2-4{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(imagenes/grid2_Belleza.jpg);
+    background-size: cover;
+}
+#box2-5{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(imagenes/grid2_Diseño.jpg);
+    background-size: cover;
+}
+#box2-6{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(imagenes/grid2_Manualidades.jpg);
+    background-size: cover;
+}
+#box2-7{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(imagenes/grid2_Educacion.jpg);
+    background-size: cover;
+}
+#box2-8{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(imagenes/grid2_Electronica.jpg);
+    background-size: cover;
+}
+#box2-9{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(imagenes/grid2_PlanificacionEventos.jpg);
+    background-size: cover;
+}
+#box2-10{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(imagenes/grid2_Finanzas.jpg);
+    background-size: cover;
+}
+#box2-11{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(imagenes/grid2_ComidaYBebida.jpg);
+    background-size: cover;
+}
+#box2-12{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(imagenes/grid2_Vacaciones.jpg);
+    background-size: cover;
+}
+#box2-13{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(imagenes/grid2_DecoracionHogar.jpg);
+    background-size: cover;
+}
+#box2-14{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(imagenes/grid2_Jardineria.jpg);
+    background-size: cover;
+}
+#box2-15{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(imagenes/grid2_ModaParaHombre.jpg);
+    background-size: cover;
+}
+#box2-16{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(imagenes/grid2_Citas.jpg);
+    background-size: cover;
+}
+#box2-17{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(imagenes/grid2_Tatuaje.jpg);
+    background-size: cover;
+}
+#box2-18{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(imagenes/grid2_Viajes.jpg);
+    background-size: cover;
+}
+#box2-19{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(imagenes/grid2_Vehiculos.jpg);
+    background-size: cover;
+}
+#box2-20{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(imagenes/grid2_Boda.jpg);
+    background-size: cover;
+}
+#box2-21{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(imagenes/grid2_ModaParaMujere.jpg);
+    background-size: cover;
+}
+
+#box2-1:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(imagenes/grid2_Animales.jpg);
+    background-size: cover;
+}
+#box2-2:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(imagenes/grid2_Arquitectura.jpg);
+    background-size: cover;
+}
+#box2-3:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(imagenes/grid2_Arte.jpg);
+    background-size: cover;
+}
+#box2-4:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(imagenes/grid2_Belleza.jpg);
+    background-size: cover;
+}
+#box2-5:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(imagenes/grid2_Diseño.jpg);
+    background-size: cover;
+}
+#box2-6:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(imagenes/grid2_Manualidades.jpg);
+    background-size: cover;
+}
+#box2-7:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(imagenes/grid2_Educacion.jpg);
+    background-size: cover;
+}
+#box2-8:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(imagenes/grid2_Electronica.jpg);
+    background-size: cover;
+}
+#box2-9:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(imagenes/grid2_PlanificacionEventos.jpg);
+    background-size: cover;
+}
+#box2-10:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(imagenes/grid2_Finanzas.jpg);
+    background-size: cover;
+}
+#box2-11:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(imagenes/grid2_ComidaYBebida.jpg);
+    background-size: cover;
+}
+#box2-12:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(imagenes/grid2_Vacaciones.jpg);
+    background-size: cover;
+}
+#box2-13:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(imagenes/grid2_DecoracionHogar.jpg);
+    background-size: cover;
+}
+#box2-14:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(imagenes/grid2_Jardineria.jpg);
+    background-size: cover;
+}
+#box2-15:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(imagenes/grid2_ModaParaHombre.jpg);
+    background-size: cover;
+}
+#box2-16:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(imagenes/grid2_Citas.jpg);
+    background-size: cover;
+}
+#box2-17:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(imagenes/grid2_Tatuaje.jpg);
+    background-size: cover;
+}
+#box2-18:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(imagenes/grid2_Viajes.jpg);
+    background-size: cover;
+}
+#box2-19:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(imagenes/grid2_Vehiculos.jpg);
+    background-size: cover;
+}
+#box2-20:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(imagenes/grid2_Boda.jpg);
+    background-size: cover;
+}
+#box2-21:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(imagenes/grid2_ModaParaMujere.jpg);
+    background-size: cover;
+}
 
 .grid3 {
-    border-color: black;
+    /* border-color: black;
     border-width: 2px;
     border-style: solid;
-    background-color: tomato;
+    background-color: tomato; */
    
     margin:0;
     padding:0;
@@ -310,6 +530,7 @@ nav a {
     justify-content: center;
 }
 
+
 .card_m {
     background-color: white;
     justify-content: center;
@@ -317,9 +538,9 @@ nav a {
     display: flex;
 
     /* width:235px; */
-    border-color: black;
+    /* border-color: black;
     border-width: 2px;
-    border-style: solid;
+    border-style: solid; */
     /* padding: 2em; */
     margin: 0.3em;
     border-radius: 16px;
@@ -332,9 +553,9 @@ nav a {
     align-items: center;
     display: flex;
     /* width:235px; */
-    border-color: black;
+    /* border-color: black;
     border-width: 2px;
-    border-style: solid;
+    border-style: solid; */
     /* padding: 2em; */
     margin: 0.3em;
     border-radius: 16px;
@@ -347,9 +568,9 @@ nav a {
     align-items: center;
     display: flex;
     /* width:235px ; */
-    border-color: black;
+    /* border-color: black;
     border-width: 2px;
-    border-style: solid;
+    border-style: solid; */
     /* padding: 2em; */
     margin: 0.3em;
     border-radius: 16px;
@@ -363,9 +584,9 @@ nav a {
     align-items: center;
     display: flex;
     /* width:235px ; */
-    border-color: black;
+    /* border-color: black;
     border-width: 2px;
-    border-style: solid;
+    border-style: solid; */
     /* padding: 2em; */
     margin: 0.3em;
     border-radius: 16px;
@@ -373,8 +594,22 @@ nav a {
     grid-row-end: span 51;
 }
 
+.card_s img, .card_m img,.card_l img,.card_xl img{
+    width: 100%;
+  height: auto;
+  border-radius: 0.5em;
+
+}
+@supports(object-fit: cover){
+    .card_s img, .card_m img,.card_l img,.card_xl img{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+}
+
 .card_s:hover,.card_m:hover,.card_l:hover,.card_xl:hover{
-    filter: brightness(30%);
+    filter: brightness(50%);
 }
 
 @media (max-width:700px) {
@@ -418,26 +653,6 @@ nav a {
     }
 }
 
-/* @media(max-width:1510px) {
-    .grid3{
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        }
-}
-@media(max-width:1195px) {
-    .grid3{
-        grid-template-columns: 1fr 1fr 1fr;
-        }
-}
-@media(max-width:886px) {
-    .grid3{
-        grid-template-columns: 1fr 1fr;
-        }
-}
-@media(max-width:573px) {
-    .grid3{
-        grid-template-columns: 1fr;
-        }
-} */
 
 
 @media (max-width:500px) {
