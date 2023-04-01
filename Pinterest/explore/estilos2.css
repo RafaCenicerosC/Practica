@@ -104,12 +104,12 @@ nav a {
     padding-top: 0.5em;
     background-color: transparent;
     text-align: left;
-    /* display: block; */
+    
     border-radius: 8px;
     box-sizing: border-box;
-    /* position: relative; */
+  
     align-items: center;
-    /* margin-right: 1em; */
+   
 }
 
 .searchbar img {
@@ -129,11 +129,10 @@ nav a {
     border-radius: 24px;
     border-width: 2px;
     display: flex;
-    /* flex-direction: row; */
+   
     text-decoration: none;
-    /* position: relative; */
     align-items: center;
-    /* max-width: 55em; */
+    
 }
 
 .searchbar input {
@@ -142,7 +141,7 @@ nav a {
     color: rgb(51, 51, 51);
     font-size: 1em;
     font-weight: normal;
-    /* height: 500px; */
+    
     outline: none;
     padding: 0;
     width: 100%;
@@ -156,7 +155,7 @@ nav a {
 .redbut-link {
     background-color: rgb(230, 0, 35);
     max-height: 3em;
-    /* width: 100%; */
+    
     border-radius: 24px;
     text-align: center;
     color: white;
@@ -170,7 +169,7 @@ nav a {
 .greybut-link {
     background-color: rgb(226, 226, 226);
     max-height: 3em;
-    /* min-width: 3.75em; */
+    
     border-radius: 24px;
     text-align: center;
     color: black;
@@ -202,13 +201,13 @@ nav a {
     padding-top: 12px;
     padding-left: 8px;
     padding-right: 8px;
-    /* background-color: yellowgreen; */
+    
     min-width: 235px;
 }
 
 .titulo {
     align-items: center;
-    /* background-color: aqua; */
+    
     display: flex;
     justify-content: center;
     padding-top: 5vh;
@@ -222,17 +221,15 @@ nav a {
     text-align: center;
     display: block;
     justify-content: center;
-    /* background-color: blueviolet; */
+    
 }
 
 .grid1 {
-    /* background-color: tomato; */
+    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: flex-end;
-    /* border-color: black;
-    border-width: 2px;
-    border-style: solid; */
+    
     justify-content: center;
     margin: 1em;
 }
@@ -242,15 +239,13 @@ nav a {
 
     color:white;
     text-align: left;
-    /* justify-content: center; */
+    
     align-items: center;
     display: flex;
     
     min-width: 200px;
     max-width: 100%;
-    /* border-color: black;
-    border-width: 2px;
-    border-style: solid; */
+    
     padding: 2em;
     border-radius: 0.5em;
     height: 258px;
@@ -299,18 +294,16 @@ nav a {
     text-align: center;
     display: block;
     justify-content: center;
-    /* background-color: blueviolet; */
+    
     margin-bottom: 2em;
 }
 
 .grid2 {
-    /* background-color: tomato; */
+   
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     align-items: center;
-    /* border-color: black; */
-    /* border-width: 2px; */
-    /* border-style: solid; */
+    
     justify-content: center;
     margin-left: 1em;
     margin-right: 1em;
@@ -324,9 +317,7 @@ nav a {
     align-items: center;
     display: flex;
     max-width: 100%;
-    /* border-color: black;
-    border-width: 2px;
-    border-style: solid; */
+   
     padding: 16px;
     border-radius: 0.5em;
     height: 103px;
@@ -512,10 +503,7 @@ nav a {
 }
 
 .grid3 {
-    /* border-color: black;
-    border-width: 2px;
-    border-style: solid;
-    background-color: tomato; */
+   
    
     margin:0;
     padding:0;
@@ -523,7 +511,7 @@ nav a {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    /* min-width: 235px; */
+    
     display: grid;
     grid-template-columns: repeat(auto-fill, 235px);
     grid-auto-rows: 10px;
@@ -537,11 +525,6 @@ nav a {
     align-items: center;
     display: flex;
 
-    /* width:235px; */
-    /* border-color: black;
-    border-width: 2px;
-    border-style: solid; */
-    /* padding: 2em; */
     margin: 0.3em;
     border-radius: 16px;
     height: 235px;
@@ -552,11 +535,7 @@ nav a {
     justify-content:center;
     align-items: center;
     display: flex;
-    /* width:235px; */
-    /* border-color: black;
-    border-width: 2px;
-    border-style: solid; */
-    /* padding: 2em; */
+ 
     margin: 0.3em;
     border-radius: 16px;
     height: 355px;
@@ -567,11 +546,7 @@ nav a {
     justify-content: center;
     align-items: center;
     display: flex;
-    /* width:235px ; */
-    /* border-color: black;
-    border-width: 2px;
-    border-style: solid; */
-    /* padding: 2em; */
+  
     margin: 0.3em;
     border-radius: 16px;
     height: 167px;
@@ -583,11 +558,7 @@ nav a {
     justify-content: center;
     align-items: center;
     display: flex;
-    /* width:235px ; */
-    /* border-color: black;
-    border-width: 2px;
-    border-style: solid; */
-    /* padding: 2em; */
+ 
     margin: 0.3em;
     border-radius: 16px;
     height: 472px;
